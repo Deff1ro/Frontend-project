@@ -1,0 +1,44 @@
+/* Statistics Section Component */
+.statistics {
+  background: #fff;
+  padding: 80px 0;
+}
+
+.statistics__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.stat-card__icon {
+  width: 60px;
+  height: 60px;
+  /* Placeholder for icon - leaving space */
+  margin-bottom: 8px;
+}
+
+.stat-card__value {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ff5a30;
+  line-height: 1;
+  margin: 0;
+}
+
+.stat-card__label {
+  font-size: 16px;
+  color: #1e212c;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 200px;
+}
