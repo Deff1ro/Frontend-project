@@ -1,0 +1,143 @@
+/* About Us Page Styles */
+
+/* Header */
+.header {
+  background: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Logo */
+.nav__logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.logo-text {
+  color: #1e212c;
+}
+
+.logo-accent {
+  color: #ff5a30;
+}
+
+/* Navigation Menu */
+.nav__menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+  flex: 1;
+}
+
+.nav__link {
+  color: #424551;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.nav__link:hover {
+  color: #ff5a30;
+}
+
+.nav__link--active {
+  color: #ff5a30;
+  font-weight: 700;
+}
+
+/* Contact Info */
+.nav__contacts {
+  display: flex;
+  gap: 50px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contact-icon {
+  flex-shrink: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.contact-label {
+  font-size: 14px;
+  color: #787a80;
+  font-weight: 400;
+}
+
+.contact-value {
+  font-size: 16px;
+  color: #1e212c;
+  font-weight: 700;
+}
+
+/* Hero Section */
+.hero {
+  background: #fff;
+  padding: 60px 0 120px;
+  position: relative;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.breadcrumb__link {
+  color: #787a80;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb__link:hover {
+  color: #ff5a30;
+}
+
+.breadcrumb__separator {
+  color: #787a80;
+}
+
+.breadcrumb__current {
+  color: #787a80;
+}
+
+/* Hero Title */
+.hero__title {
+  font-size: 72px;
+  font-weight: 900;
+  color: #1e212c;
+  margin: 0 0 24px;
+  letter-spacing: 1px;
+}
+
+/* Hero Text */
+.hero__text {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #787a80;
+  margin: 0;
+  max-width: 600px;
+}

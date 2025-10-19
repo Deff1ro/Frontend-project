@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>About Us - Createx Construction</title>
 
     <style media="(prefers-color-scheme: light)">
       @import url('./src/styles/colors/light.css');
@@ -14,6 +14,59 @@
     </style>
   </head>
   <body>
+    <!-- Header Navigation -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <div class="nav__logo">
+            <span class="logo-text">CREATE</span><span class="logo-accent">X</span>
+          </div>
+          <ul class="nav__menu">
+            <li><a href="#" class="nav__link nav__link--active">About Us</a></li>
+            <li><a href="#" class="nav__link">Services</a></li>
+            <li><a href="#" class="nav__link">Work</a></li>
+            <li><a href="#" class="nav__link">News</a></li>
+            <li><a href="#" class="nav__link">Contacts</a></li>
+          </ul>
+          <div class="nav__contacts">
+            <div class="contact-item">
+              <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <rect x="5" y="4" width="14" height="17" rx="2" stroke="#FF5A30" stroke-width="2"/>
+                <path d="M9 1V4M15 1V4" stroke="#FF5A30" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <div class="contact-info">
+                <div class="contact-label">Call us</div>
+                <div class="contact-value">(405) 555-0128</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="12" r="10" stroke="#FF5A30" stroke-width="2"/>
+                <path d="M8 10C8 10 10 13 12 13C14 13 16 10 16 10" stroke="#FF5A30" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <div class="contact-info">
+                <div class="contact-label">Talk to us</div>
+                <div class="contact-value">hello@createx.com</div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+      <div class="container">
+        <div class="breadcrumb">
+          <a href="#" class="breadcrumb__link">Homepage</a>
+          <span class="breadcrumb__separator">/</span>
+          <span class="breadcrumb__current">About Us</span>
+        </div>
+        <h1 class="hero__title">ABOUT US</h1>
+        <p class="hero__text">Createx Construction Bureau has been successfully operating<br>in the USA construction market since 2000. We are proud to offer<br>you quality construction and exemplary service.</p>
+      </div>
+    </section>
+
     <script type="module" src="/src/index.js"></script>
   </body>
 </html>
