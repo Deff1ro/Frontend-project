@@ -30,7 +30,7 @@
   min-height: 570px;
   background: #fff;
   padding: 60px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 4px 20px rgb(0 0 0 / 8%);
   position: relative;
   margin-left: -100px;
   margin-top: -80px;
@@ -45,7 +45,7 @@
   font-size: 120px;
   color: #ff5a30;
   line-height: 1;
-  margin: -10px 0 0 0;
+  margin: -10px 0 0;
   font-family: Georgia, serif;
   flex-shrink: 0;
 }
@@ -85,5 +85,6 @@
 
 .quote-section__signature {
   margin-top: 24px;
+
   /* Placeholder for signature - not implementing */
 }

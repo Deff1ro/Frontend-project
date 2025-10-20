@@ -108,7 +108,7 @@
 
 .timeline-item--active .timeline-item__marker {
   background: #ff5a30;
-  box-shadow: 0 0 0 4px rgba(255, 90, 48, 0.2);
+  box-shadow: 0 0 0 4px rgb(255 90 48 / 20%);
 }
 
 .timeline-item--active .timeline-item__label {

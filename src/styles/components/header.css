@@ -13,11 +13,11 @@
   letter-spacing: 0.5px;
 }
 
-.logo-text {
+.nav__logo-text {
   color: #1e212c;
 }
 
-.logo-accent {
+.nav__logo-accent {
   color: #ff5a30;
 }
 
@@ -54,29 +54,29 @@
   gap: 50px;
 }
 
-.contact-item {
+.nav__contact {
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
-.contact-icon {
+.nav__contact-icon {
   flex-shrink: 0;
 }
 
-.contact-info {
+.nav__contact-info {
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
 
-.contact-label {
+.nav__contact-label {
   font-size: 14px;
   color: #787a80;
   font-weight: 400;
 }
 
-.contact-value {
+.nav__contact-value {
   font-size: 16px;
   color: #1e212c;
   font-weight: 700;
