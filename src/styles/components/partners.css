@@ -1,0 +1,49 @@
+/* Partners Section Component */
+.partners {
+  background: #fff;
+  padding: 120px 0 100px;
+}
+
+.partners__title {
+  font-size: 46px;
+  font-weight: 700;
+  color: #1e212c;
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.partners__subtitle {
+  font-size: 18px;
+  color: #787a80;
+  text-align: center;
+  margin: 0 0 80px;
+}
+
+.partners__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 60px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.partners__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners__logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 60px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.partners__logo:hover {
+  opacity: 1;
+  filter: grayscale(0%);
+}
