@@ -43,4 +43,15 @@ document.addEventListener('DOMContentLoaded', () => {
       setActiveSlide(newIndex);
     });
   }
+
+  // Go to top button functionality
+  const goToTopBtn = document.getElementById('goToTop');
+  if (goToTopBtn) {
+    goToTopBtn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    });
+  }
 });
