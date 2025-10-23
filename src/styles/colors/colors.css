@@ -1,4 +1,73 @@
+/* Light Theme (Default) */
 :root {
-  --color-white: #e3e3e3;
-  --color-black: #1d1d1d;
+  /* Brand Colors */
+  --color-primary: #ff5a30;
+  --color-primary-hover: #e54a20;
+  --color-primary-active: #d43b10;
+  --color-accent: #ff5a30;
+
+  /* Background Colors */
+  --color-bg-primary: #fff;
+  --color-bg-secondary: #f4f5f6;
+  --color-bg-dark: #2c3242;
+
+  /* Text Colors */
+  --color-text-primary: #1e212c;
+  --color-text-secondary: #787a80;
+  --color-text-tertiary: #9ca3af;
+  --color-text-light: #9a9ca5;
+  --color-text-white: #fff;
+
+  /* Border Colors */
+  --color-border: #d7dadd;
+  --color-border-dark: #424551;
+
+  /* Input Colors */
+  --color-input-bg: #f4f5f6;
+  --color-input-placeholder: #9ca3af;
+
+  /* Footer Colors */
+  --color-footer-bg: #2c3242;
+  --color-footer-text: #9ca3af;
+
+  /* Shadow */
+  --shadow-card: 0 4px 20px rgb(0 0 0 / 8%);
+  --shadow-form: 0 4px 20px rgb(0 0 0 / 10%);
+}
+
+/* Dark Theme */
+:root[data-theme='dark'] {
+  /* Brand Colors - остаются прежними */
+  --color-primary: #ff5a30;
+  --color-primary-hover: #ff6b45;
+  --color-primary-active: #ff7c5a;
+  --color-accent: #ff5a30;
+
+  /* Background Colors */
+  --color-bg-primary: #1a1d28;
+  --color-bg-secondary: #22262f;
+  --color-bg-dark: #14171f;
+
+  /* Text Colors */
+  --color-text-primary: #e8e9eb;
+  --color-text-secondary: #a8adb7;
+  --color-text-tertiary: #6b7280;
+  --color-text-light: #8b8d95;
+  --color-text-white: #fff;
+
+  /* Border Colors */
+  --color-border: #3a3f4a;
+  --color-border-dark: #2a2f3a;
+
+  /* Input Colors */
+  --color-input-bg: #22262f;
+  --color-input-placeholder: #6b7280;
+
+  /* Footer Colors */
+  --color-footer-bg: #14171f;
+  --color-footer-text: #a8adb7;
+
+  /* Shadow */
+  --shadow-card: 0 4px 20px rgb(0 0 0 / 40%);
+  --shadow-form: 0 4px 20px rgb(0 0 0 / 50%);
 }

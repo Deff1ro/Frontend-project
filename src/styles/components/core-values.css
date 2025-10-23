@@ -38,8 +38,13 @@
   width: 72px;
   height: 72px;
   margin: 0 auto 24px;
+}
 
-  /* Placeholder for icon */
+.value-card__icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
 }
 
 .value-card__title {
@@ -54,4 +59,61 @@
   line-height: 1.6;
   color: #787a80;
   margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .core-values {
+    padding: 80px 0 40px;
+  }
+
+  .core-values__title {
+    font-size: 38px;
+    margin-bottom: 12px;
+  }
+
+  .core-values__subtitle {
+    font-size: 16px;
+    margin-bottom: 60px;
+  }
+
+  .core-values__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .core-values {
+    padding: 60px 0 30px;
+  }
+
+  .core-values__title {
+    font-size: 32px;
+  }
+
+  .core-values__subtitle {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .core-values__grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .value-card__icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+  }
+
+  .value-card__title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .value-card__text {
+    font-size: 14px;
+  }
 }

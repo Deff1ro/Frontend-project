@@ -23,9 +23,14 @@
 .stat-card__icon {
   width: 60px;
   height: 60px;
-
-  /* Placeholder for icon - leaving space */
   margin-bottom: 8px;
+}
+
+.stat-card__icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
 }
 
 .stat-card__value {
@@ -42,4 +47,53 @@
   line-height: 1.5;
   margin: 0;
   max-width: 200px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .statistics {
+    padding: 60px 0;
+  }
+
+  .statistics__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+
+  .stat-card__value {
+    font-size: 42px;
+  }
+
+  .stat-card__label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .statistics {
+    padding: 40px 0;
+  }
+
+  .statistics__grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .stat-card {
+    gap: 12px;
+  }
+
+  .stat-card__icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 6px;
+  }
+
+  .stat-card__value {
+    font-size: 36px;
+  }
+
+  .stat-card__label {
+    font-size: 13px;
+  }
 }

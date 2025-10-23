@@ -35,7 +35,6 @@
   color: #424551;
   text-decoration: none;
   font-size: 16px;
-  font-weight: 400;
   transition: color 0.3s ease;
 }
 
@@ -62,6 +61,10 @@
 
 .nav__contact-icon {
   flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: block;
+  object-fit: contain;
 }
 
 .nav__contact-info {
@@ -73,11 +76,59 @@
 .nav__contact-label {
   font-size: 14px;
   color: #787a80;
-  font-weight: 400;
 }
 
 .nav__contact-value {
   font-size: 16px;
   color: #1e212c;
   font-weight: 700;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .nav {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .nav__menu {
+    gap: 20px;
+  }
+
+  .nav__contacts {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .nav__logo {
+    font-size: 20px;
+  }
+
+  .nav__menu {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .nav__contacts {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .nav__contact {
+    gap: 10px;
+  }
+
+  .nav__contact-icon {
+    width: 20px;
+    height: 20px;
+  }
 }

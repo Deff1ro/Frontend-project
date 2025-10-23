@@ -1,4 +1,5 @@
 import './index.css';
+import './js/theme.js';
 
 // History Slider Functionality
 document.addEventListener('DOMContentLoaded', () => {
