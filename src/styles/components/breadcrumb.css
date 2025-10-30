@@ -1,0 +1,32 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+.breadcrumb__link {
+  color: var(--color-text-light);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb__link:hover {
+  color: var(--color-primary);
+}
+
+.breadcrumb__separator {
+  color: var(--color-text-light);
+}
+
+.breadcrumb__current {
+  color: var(--color-text-light);
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+}

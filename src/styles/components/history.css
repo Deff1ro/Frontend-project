@@ -1,6 +1,5 @@
-/* History Section Component */
 .history {
-  background: #f4f5f6;
+  background: var(--color-bg-secondary);
   padding: 80px 0 120px;
 }
 
@@ -14,7 +13,7 @@
 .history__title {
   font-size: 46px;
   font-weight: 700;
-  color: #1e212c;
+  color: var(--color-text-primary);
   margin: 0;
 }
 
@@ -28,8 +27,8 @@
   height: 48px;
   border-radius: 50%;
   border: none;
-  background: #fff;
-  color: #424551;
+  background: var(--color-bg-secondary);
+  color: var(--color-text-light);
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -38,17 +37,17 @@
 }
 
 .history__nav-btn:hover {
-  background: #ff5a30;
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-text-white);
 }
 
 .history__nav-btn--next {
-  background: #ff5a30;
-  color: #fff;
+  background: var(--color-primary);
+  color: var(--color-text-white);
 }
 
 .history__nav-btn--next:hover {
-  background: #e54a20;
+  background: var(--color-primary-active);
 }
 
 .history__content {
@@ -56,7 +55,6 @@
   gap: 60px;
 }
 
-/* Timeline */
 .history__timeline {
   flex-shrink: 0;
   width: 240px;
@@ -72,55 +70,9 @@
   top: 12px;
   bottom: 12px;
   width: 2px;
-  background: #9a9ca5;
+  background: var(--color-text-light);
 }
 
-.timeline-item {
-  background: none;
-  border: none;
-  padding: 20px 0 20px 40px;
-  text-align: left;
-  cursor: pointer;
-  position: relative;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  transition: all 0.3s ease;
-}
-
-.timeline-item__marker {
-  position: absolute;
-  left: 0;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: #9a9ca5;
-  border: 2px solid #f4f5f6;
-  transition: all 0.3s ease;
-}
-
-.timeline-item__label {
-  font-size: 18px;
-  color: #9a9ca5;
-  font-weight: 700;
-  transition: all 0.3s ease;
-}
-
-.timeline-item--active .timeline-item__marker {
-  background: #ff5a30;
-  box-shadow: 0 0 0 4px rgb(255 90 48 / 20%);
-}
-
-.timeline-item--active .timeline-item__label {
-  color: #ff5a30;
-  font-weight: 700;
-}
-
-.timeline-item:hover .timeline-item__label {
-  color: #ff5a30;
-}
-
-/* Slider */
 .history__slider {
   flex: 1;
   position: relative;
@@ -143,11 +95,10 @@
 .history__description {
   font-size: 16px;
   line-height: 1.6;
-  color: #424551;
+  color: var(--color-text-light);
   margin: 0;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .history {
     padding: 60px 0 80px;
@@ -167,20 +118,6 @@
 
   .history__timeline {
     width: 180px;
-  }
-
-  .timeline-item {
-    padding: 15px 0 15px 30px;
-    gap: 12px;
-  }
-
-  .timeline-item__marker {
-    width: 16px;
-    height: 16px;
-  }
-
-  .timeline-item__label {
-    font-size: 16px;
   }
 
   .history__image {
@@ -231,25 +168,6 @@
     bottom: auto;
     width: auto;
     height: 2px;
-  }
-
-  .timeline-item {
-    padding: 40px 20px 0;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 8px;
-    min-width: 120px;
-  }
-
-  .timeline-item__marker {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-  }
-
-  .timeline-item__label {
-    font-size: 14px;
   }
 
   .history__slider {

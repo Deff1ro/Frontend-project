@@ -1,20 +1,19 @@
-/* Partners Section Component */
 .partners {
-  background: #fff;
+  background: var(--color-bg-secondary);
   padding: 120px 0 100px;
 }
 
 .partners__title {
   font-size: 46px;
   font-weight: 700;
-  color: #1e212c;
+  color: var(--color-text-primary);
   text-align: center;
   margin: 0 0 16px;
 }
 
 .partners__subtitle {
   font-size: 18px;
-  color: #787a80;
+  color: var(--color-text-light);
   text-align: center;
   margin: 0 0 80px;
 }
@@ -45,7 +44,6 @@
   filter: grayscale(100%);
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .partners {
     padding: 80px 0 60px;

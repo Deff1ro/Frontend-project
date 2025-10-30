@@ -1,13 +1,12 @@
-/* We Work Worldwide Section Component */
 .worldwide {
-  background: #f4f5f6;
+  background: var(--color-bg-secondary);
   padding: 120px 0 100px;
 }
 
 .worldwide__title {
   font-size: 46px;
   font-weight: 700;
-  color: #1e212c;
+  color: var(--color-text-primary);
   text-align: center;
   margin: 0 0 80px;
 }
@@ -29,7 +28,6 @@
   display: block;
 }
 
-/* Responsive Design */
 @media (max-width: 1024px) {
   .worldwide {
     padding: 80px 0 60px;

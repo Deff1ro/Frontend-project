@@ -1,6 +1,4 @@
-/* Dark Theme Overrides */
 :root[data-theme='dark'] {
-  /* Global */
   color-scheme: dark;
 }
 
@@ -9,7 +7,6 @@
   color: var(--color-text-primary);
 }
 
-/* Header */
 :root[data-theme='dark'] .header {
   background: var(--color-bg-dark);
   box-shadow: 0 1px 4px rgb(0 0 0 / 40%);
@@ -35,7 +32,6 @@
   color: var(--color-text-primary);
 }
 
-/* Hero Section */
 :root[data-theme='dark'] .hero {
   background: var(--color-bg-secondary);
 }
@@ -60,7 +56,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Core Values Section */
 :root[data-theme='dark'] .core-values {
   background: var(--color-bg-primary);
 }
@@ -81,7 +76,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Quote Section */
 :root[data-theme='dark'] .quote-section {
   background: var(--color-bg-secondary);
 }
@@ -103,7 +97,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Statistics Section */
 :root[data-theme='dark'] .statistics {
   background: var(--color-bg-primary);
 }
@@ -112,7 +105,7 @@
   color: var(--color-text-primary);
 }
 
-/* History Section */
+
 :root[data-theme='dark'] .history {
   background: var(--color-bg-secondary);
 }
@@ -157,7 +150,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Partners Section */
 :root[data-theme='dark'] .partners {
   background: var(--color-bg-primary);
 }
@@ -170,7 +162,6 @@
   color: var(--color-text-secondary);
 }
 
-/* Team Section */
 :root[data-theme='dark'] .team {
   background: var(--color-bg-primary);
 }
@@ -199,7 +190,6 @@
   color: var(--color-text-primary);
 }
 
-/* Worldwide Section */
 :root[data-theme='dark'] .worldwide {
   background: var(--color-bg-secondary);
 }
@@ -208,7 +198,6 @@
   color: var(--color-text-primary);
 }
 
-/* Contact Form Section */
 :root[data-theme='dark'] .contact-form__form {
   background: var(--color-bg-primary);
   box-shadow: var(--shadow-form);
@@ -250,7 +239,6 @@
   background: var(--color-primary-active);
 }
 
-/* Footer */
 :root[data-theme='dark'] .footer {
   background: var(--color-footer-bg);
 }
@@ -280,7 +268,6 @@
   border-top-color: var(--color-border-dark);
 }
 
-/* Theme Toggle Button */
 .theme-toggle {
   width: 44px;
   height: 44px;
@@ -312,7 +299,6 @@
   transform: rotate(20deg);
 }
 
-/* Show/Hide Sun and Moon icons */
 .theme-toggle__sun {
   opacity: 1;
   transition: opacity 0.3s ease;
@@ -336,7 +322,6 @@
   color: var(--color-text-primary);
 }
 
-/* Smooth transitions */
 :root[data-theme='dark'] * {
   transition:
     background-color 0.3s ease,

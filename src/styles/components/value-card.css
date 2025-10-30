@@ -1,0 +1,50 @@
+.value-card {
+  background: transparent;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.value-card__icon {
+  width: 72px;
+  height: 72px;
+  margin: 0 auto 24px;
+}
+
+.value-card__icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.value-card__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin: 0 0 16px;
+}
+
+.value-card__text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+
+  .value-card__icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 16px;
+  }
+
+  .value-card__title {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .value-card__text {
+    font-size: 14px;
+  }
+}
