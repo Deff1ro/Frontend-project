@@ -1,3 +1,4 @@
+/* Компонент подвала сайта */
 .footer {
   background: var(--color-footer-bg);
   color: var(--color-text-white);
@@ -56,16 +57,17 @@
   display: flex;
 }
 
-.footer__social-image {
-  width: 185px;
-  height: 24px;
+.footer__social-img {
+  width: 100%;
+  max-width: 185px;
+  height: auto;
   display: block;
 }
 
 .footer__description {
   font-size: 14px;
   line-height: 1.6;
-  color: var(--color-footer-text);
+  color: var(--color-text-light);
   margin: 0;
 }
 
@@ -90,11 +92,11 @@
 .footer__list-item {
   font-size: 14px;
   line-height: 1.6;
-  color: var(--color-footer-text);
+  color: var(--color-text-light);
 }
 
 .footer__link {
-  color: var(--color-footer-text);
+  color: var(--color-text-light);
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -134,7 +136,7 @@
 }
 
 .footer__subscribe-input::placeholder {
-  color: var(--color-input-placeholder);
+  color: var(--color-text-light);
 }
 
 .footer__subscribe-input:focus {
@@ -164,13 +166,13 @@
 .footer__subscribe-note {
   font-size: 12px;
   line-height: 1.5;
-  color: var(--color-footer-text);
+  color: var(--color-text-light);
   margin: 0;
 }
 
 .footer__copyright {
   font-size: 14px;
-  color: var(--color-footer-text);
+  color: var(--color-text-light);
   margin: 0;
   display: flex;
   align-items: center;
@@ -205,6 +207,7 @@
   color: var(--color-text-white);
 }
 
+n/* Адаптивный дизайн */
 @media (max-width: 1024px) {
   .footer {
     padding: 60px 0 24px;
@@ -232,9 +235,8 @@
     font-size: 20px;
   }
 
-  .footer__social-image {
-    width: 160px;
-    height: 20px;
+  .footer__social-img {
+    max-width: 160px;
   }
 
   .footer__description {
@@ -314,9 +316,8 @@
     font-size: 18px;
   }
 
-  .footer__social-image {
-    width: 140px;
-    height: 18px;
+  .footer__social-img {
+    max-width: 140px;
   }
 
   .footer__description {

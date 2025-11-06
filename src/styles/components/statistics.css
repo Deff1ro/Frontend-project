@@ -1,5 +1,6 @@
+/* Компонент секции статистики */
 .statistics {
-  background: var(--color-bg-secondary);
+  background: #fff;
   padding: 80px 0;
 }
 
@@ -10,7 +11,46 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+/*  */
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
 
+.stat-card__icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 8px;
+}
+/*  */
+
+.stat-card__icon img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.stat-card__value {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ff5a30;
+  line-height: 1;
+  margin: 0;
+}
+
+.stat-card__label {
+  font-size: 16px;
+  color: #1e212c;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 200px;
+}
+
+/* Адаптивный дизайн */
 @media (max-width: 1024px) {
   .statistics {
     padding: 60px 0;
@@ -19,6 +59,14 @@
   .statistics__grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+  }
+
+  .stat-card__value {
+    font-size: 42px;
+  }
+
+  .stat-card__label {
+    font-size: 14px;
   }
 }
 
@@ -30,5 +78,23 @@
   .statistics__grid {
     grid-template-columns: 1fr;
     gap: 30px;
+  }
+
+  .stat-card {
+    gap: 12px;
+  }
+
+  .stat-card__icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 6px;
+  }
+
+  .stat-card__value {
+    font-size: 36px;
+  }
+
+  .stat-card__label {
+    font-size: 13px;
   }
 }

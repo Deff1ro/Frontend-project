@@ -1,5 +1,7 @@
+/* Компонент формы обратной связи */
 .contact-form {
   position: relative;
+  /*  */
   min-height: 600px;
   display: flex;
   align-items: center;
@@ -66,7 +68,7 @@
 
 .contact-form__input::placeholder,
 .contact-form__textarea::placeholder {
-  color: var(--color-input-placeholder);
+  color: var(--color-text-light);
 }
 
 .contact-form__input:focus,
@@ -128,6 +130,7 @@
   background: var(--color-primary-active);
 }
 
+/* Адаптивный дизайн */
 @media (max-width: 1024px) {
   .contact-form {
     min-height: 500px;

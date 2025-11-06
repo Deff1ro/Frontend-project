@@ -1,6 +1,7 @@
+/* Компонент Hero секции */
 .hero {
-  background: var(--color-bg-secondary);
-  height: 600px;
+  background: #f4f5f6;
+  min-height: 600px;
   position: relative;
   overflow: hidden;
 }
@@ -11,13 +12,13 @@
   position: absolute;
   right: 0;
   width: auto;
-  height: 600px;
+  min-height: 600px;
 }
 
 .hero::before {
   top: 0;
   background: url('/images/Background2.png') no-repeat right center;
-  background-size: auto 600px;
+  background-size: auto 100%;
   width: 100%;
   z-index: 1;
 }
@@ -25,34 +26,30 @@
 .hero::after {
   top: 0;
   background: url('/images/Background1.png') no-repeat right center;
-  background-size: auto 600px;
+  background-size: auto 100%;
   width: 100%;
   z-index: 0;
 }
 
-.hero__inner {
+.hero__content {
   position: relative;
-  z-index: 3;
+  z-index: 2;
   height: 100%;
   display: flex;
   flex-direction: column;
-}
-
-.hero__nav {
-  padding: 20px 0;
-}
-
-.hero__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
+  padding: 80px 0;
+}
+
+/* Breadcrumb внутри hero - добавляем отступ через контекстный селектор */
+.hero__content .breadcrumb {
+  margin-bottom: 40px;
 }
 
 .hero__title {
   font-size: 72px;
   font-weight: 900;
-  color: var(--color-text-primary);
+  color: #1e212c;
   margin: 0 0 24px;
   letter-spacing: 1px;
 }
@@ -60,20 +57,20 @@
 .hero__text {
   font-size: 20px;
   line-height: 1.6;
-  color: var(--color-text-light);
+  color: #787a80;
   margin: 0;
   max-width: 600px;
 }
 
+/* Адаптивный дизайн */
 @media (max-width: 1024px) {
   .hero {
-    height: 500px;
+    min-height: 500px;
   }
 
   .hero::before,
   .hero::after {
-    height: 500px;
-    background-size: auto 500px;
+    min-height: 500px;
   }
 
   .hero__title {
@@ -88,14 +85,17 @@
 
 @media (max-width: 768px) {
   .hero {
-    height: 400px;
+    min-height: 400px;
   }
 
   .hero::before,
   .hero::after {
-    height: 400px;
-    background-size: auto 400px;
+    min-height: 400px;
     opacity: 0.5;
+  }
+
+  .hero__content .breadcrumb {
+    margin-bottom: 20px;
   }
 
   .hero__title {

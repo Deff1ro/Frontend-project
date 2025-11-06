@@ -3,7 +3,7 @@
 }
 
 :root[data-theme='dark'] body {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
   color: var(--color-text-primary);
 }
 
@@ -17,7 +17,7 @@
 }
 
 :root[data-theme='dark'] .nav__link {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .nav__link:hover {
@@ -25,7 +25,7 @@
 }
 
 :root[data-theme='dark'] .nav__contact-label {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .nav__contact-value {
@@ -37,15 +37,15 @@
 }
 
 :root[data-theme='dark'] .breadcrumb {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .breadcrumb__link {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .breadcrumb__separator {
-  color: var(--color-text-tertiary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .hero__title {
@@ -53,11 +53,11 @@
 }
 
 :root[data-theme='dark'] .hero__text {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .core-values {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
 }
 
 :root[data-theme='dark'] .core-values__title {
@@ -65,7 +65,7 @@
 }
 
 :root[data-theme='dark'] .core-values__subtitle {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .value-card__title {
@@ -73,7 +73,7 @@
 }
 
 :root[data-theme='dark'] .value-card__text {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .quote-section {
@@ -81,7 +81,7 @@
 }
 
 :root[data-theme='dark'] .quote-section__content {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
   box-shadow: var(--shadow-card);
 }
 
@@ -94,11 +94,11 @@
 }
 
 :root[data-theme='dark'] .quote-section__position {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .statistics {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
 }
 
 :root[data-theme='dark'] .stat-card__label {
@@ -116,7 +116,7 @@
 
 :root[data-theme='dark'] .history__nav-btn {
   background: var(--color-bg-dark);
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .history__nav-btn:hover {
@@ -147,11 +147,11 @@
 }
 
 :root[data-theme='dark'] .history__description {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .partners {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
 }
 
 :root[data-theme='dark'] .partners__title {
@@ -159,11 +159,11 @@
 }
 
 :root[data-theme='dark'] .partners__subtitle {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .team {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
 }
 
 :root[data-theme='dark'] .team__title {
@@ -171,7 +171,7 @@
 }
 
 :root[data-theme='dark'] .team__subtitle {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .team-card {
@@ -183,7 +183,7 @@
 }
 
 :root[data-theme='dark'] .team-card__position {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .team__footer {
@@ -199,7 +199,7 @@
 }
 
 :root[data-theme='dark'] .contact-form__form {
-  background: var(--color-bg-primary);
+  background: var(--color-bg-light);
   box-shadow: var(--shadow-form);
 }
 
@@ -228,7 +228,7 @@
 }
 
 :root[data-theme='dark'] .contact-form__checkbox-label {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .contact-form__button:hover {
@@ -261,7 +261,7 @@
 }
 
 :root[data-theme='dark'] .footer__subscribe-input::placeholder {
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
 }
 
 :root[data-theme='dark'] .footer__row-3 {
@@ -290,7 +290,7 @@
 .theme-toggle__icon {
   width: 24px;
   height: 24px;
-  color: var(--color-text-secondary);
+  color: var(--color-text-light);
   transition: all 0.3s ease;
 }
 

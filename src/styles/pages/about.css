@@ -1,11 +1,16 @@
+/* Компоненты страницы About */
 @import '../components/header.css';
 @import '../components/hero.css';
 @import '../components/statistics.css';
+@import '../components/stat-card.css';
 @import '../components/quote.css';
 @import '../components/core-values.css';
+@import '../components/value-card.css';
 @import '../components/history.css';
+@import '../components/timeline-item.css';
 @import '../components/partners.css';
 @import '../components/team.css';
+@import '../components/team-card.css';
 @import '../components/worldwide.css';
 @import '../components/contact-form.css';
 @import '../components/footer.css';

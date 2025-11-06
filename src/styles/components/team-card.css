@@ -1,3 +1,4 @@
+/* Компонент карточки члена команды */
 .team-card {
   background: var(--color-bg-secondary);
   display: flex;
@@ -54,6 +55,7 @@
   transform: translateY(-2px);
 }
 
+/*  */
 .team-card__social-link svg {
   fill: #fff;
 }
@@ -72,6 +74,7 @@
   margin: 0 20px 24px;
   text-align: center;
 }
+/* Адаптивный дизайн *//* Адаптивный дизайн */
 @media (max-width: 1024px) {
   .team-card__image-wrapper {
     height: 300px;

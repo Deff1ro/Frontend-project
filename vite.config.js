@@ -4,6 +4,10 @@ import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
   base: '/Frontend-project/',
+  server: {
+    host: '0.0.0.0',
+    port: 5173,
+  },
   build: {
     emptyOutDir: true,
     modulePreload: { polyfill: false },
